@@ -25,40 +25,41 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="8px"
-            android:text="Sardell"
+            android:padding="8dp"
+            android:text="@string/sardell"
             android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="8px"
-            android:text="Tuunikala"
+            android:padding="8dp"
+            android:text="@string/tuunikala"
             android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="8px"
-            android:text="Krõpsud"
+            android:padding="8dp"
+            android:text="@string/kr_psud"
             android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="8px"
-            android:text="Õlu"
+            android:padding="8dp"
+            android:text="@string/lu"
             android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="8px"
-            android:text="Piim"
+            android:padding="8dp"
+            android:text="@string/piim"
             android:textSize="30sp" />
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

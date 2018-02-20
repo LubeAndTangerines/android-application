@@ -5,4 +5,14 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="sardell">Apelsin</string>
+    <string name="tuunikala">Tuunikala</string>
+    <string name="kr_psud">Krõpsud</string>
+    <string name="lu">Õlu</string>
+    <string name="piim">Piim</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="wishpiles">Wishpiles</string>
+    <string name="shopping_list">Shopping list</string>
+    <string name="naw_share">Nav share</string>
 </resources>
