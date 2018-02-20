@@ -25,8 +25,13 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:padding="8dp"
             android:text="@string/sardell"
+=======
+            android:padding="8px"
+            android:text="Sardellija"
+>>>>>>> fbb32f4ec8d59b037bf6e19ec7d5042baa6f699c
             android:textSize="30sp" />
 
         <TextView
