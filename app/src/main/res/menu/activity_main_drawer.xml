@@ -9,23 +9,24 @@
         <item
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Settings" />
+            android:title="@string/settings" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_share"
-            android:title="Share" />
+            android:title="@string/share"
+            />
     </group>
 
-    <item android:title="Wishpiles">
+    <item android:title="@string/wishpiles">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_gallery"
-                android:title="Shopping list" />
+                android:title="@string/shopping_list" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_gallery"
-                android:title="Share" />
+                android:title="@string/naw_share" />
         </menu>
     </item>
 
