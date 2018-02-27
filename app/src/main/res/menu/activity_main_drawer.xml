@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-
 
 
     <group android:checkableBehavior="single">
@@ -11,10 +12,17 @@
             android:icon="@drawable/ic_menu_manage"
             android:title="@string/settings" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/shareit"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:background="#20b2aa"
             android:icon="@drawable/ic_menu_share"
-            android:title="@string/share"
-            />
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:title="@string/Share"
+            android:typeface="serif" />
+
     </group>
 
     <item android:title="@string/wishpiles">

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CollapsingToolbarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context="com.ttehnika.lubetangerines.SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_collapseParallaxMultiplier="1.0"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/enter_a_new_item"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:text="@string/name"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/Name__input"
+            android:layout_width="196dp"
+            android:layout_height="40dp"
+            android:hint="@string/password_hint"
+            android:inputType="textAutoCorrect"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/Amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/Amount_input"
+            android:layout_width="196dp"
+            android:layout_height="40dp"
+            android:hint="@string/password_hint"
+            android:inputType="numberDecimal"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/save"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="121dp"
+            android:background="@color/colorAccent"
+            android:text="@string/save"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:visibility="visible"
+            tools:targetApi="lollipop" />
+    </LinearLayout>
+
+</android.support.design.widget.CollapsingToolbarLayout>

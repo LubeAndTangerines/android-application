@@ -15,4 +15,12 @@
     <string name="wishpiles">Wishpiles</string>
     <string name="shopping_list">Shopping list</string>
     <string name="naw_share">Nav share</string>
+    <string name="Share">Share</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="amount">Amount</string>
+    <string name="enter_a_new_item">Enter a new item:</string>
+    <string name="hint">hint</string>
+    <string name="password_hint" />
 </resources>
