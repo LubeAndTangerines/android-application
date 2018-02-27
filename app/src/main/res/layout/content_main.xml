@@ -7,6 +7,16 @@
     android:layout_height="match_parent"
 
 
+<<<<<<< HEAD
+=======
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/sardell"
+            android:textSize="30sp" />
+>>>>>>> 02f6a7e0eab19d20989d766776440fe6fb385d4a
 
     />
 
